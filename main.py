@@ -139,7 +139,7 @@ if __name__ == '__main__':
             print('\nPuzzle:')
             print_sudoku(covered_board)
 
-            print('-' * 23 + '\n\nSolution:')
+            print('\n\nSolution:')
             print_sudoku(board)
 
         except Exception:
